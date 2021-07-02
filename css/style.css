@@ -1,0 +1,215 @@
+/* common start */
+body{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: #333;
+}
+/* common end */
+.container{
+	margin: 0 auto;
+	width: 1000px;
+}
+/*header start*/
+.header{
+	padding: 15px 0;
+	overflow: hidden;
+	background-color: #ddd;
+}
+.logo{
+	margin-left: 10px;
+	float: left;
+	width: 280px;
+	/*margin-right: 20px;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 700px;
+}
+.menu ul{
+	margin-top: 22px;
+	list-style: none;
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	padding: 10px 15px;
+	display: block;
+	text-decoration: none;
+	font-size: 24px;
+	color: #333;
+}
+.menu ul li a:hover{
+	background-color: #FF6347;
+	color: #fff;
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.banner img{
+	width: 100%;
+}
+/*banner end*/
+
+/*services start*/
+.services{
+	margin-top: 20px;
+}
+.title{}
+.title h4{
+	margin: 20px 0;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 35px;
+}
+.services-box{
+	overflow: hidden;
+}
+.single-service{
+	float: left;
+	margin-right: 15px;
+	padding: 10px;
+	width: 303px;
+	background-color: teal;
+}
+.single-service:last-child{
+	margin-right: 0;
+}
+.single-service h4{
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+.single-service img{
+	width: 100%;
+}
+.single-service p{
+	margin: 10px 0;
+	font-size: 20px;
+	color: #fff;
+}
+.single-service a,.about-left a{
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	color: #fff;
+	background-color: #FF6347;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+/*services end*/
+.service-page{}
+.service-page .single-service{
+	width:218px;
+	margin-bottom: 30px;
+}
+.service-page .single-service:nth-child(4){
+	margin-right:0;
+}
+.service-page .single-service:nth-child(8){
+	margin-right:0;
+}
+
+/*about us & sidebar Menu Start*/
+.about{
+	padding: 15px 0;
+	overflow: hidden;
+}
+.about-left{
+	margin-right: 30px;
+	float: left;
+	width: 700px;
+}
+.about-left h4,.about-menu h4{
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	font-size: 30px;
+}
+.about-left p{
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.about-menu{
+	float: right;
+	width: 270px;
+}
+.about-menu ul{
+	list-style: none;
+	margin-top:23px;
+}
+.about-menu ul li{
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ddd;
+}
+.about-menu ul li:last-child {
+    border-bottom: 0;
+}
+.about-menu ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+	background-image: url('../images/arrow.png');
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	line-height: 20px;
+}
+/*about us & sidebar Menu end*/
+/*About Us | Project Page*/
+.page-banner {
+    background-image: url('../images/page-bannar.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+    text-align: center;
+}
+.page-banner h4 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}
+/*About Us | Project Page*/
+/*gallery start*/
+.gallery{}
+.gallery-box{
+	overflow: hidden;
+}
+.single-gallery{
+	margin-right: 26px;
+	margin-bottom: 20px;
+	float: left;
+	width: 230px;
+}
+.single-gallery:nth-child(4),.single-gallery:nth-child(8){
+	margin-right: 0;
+}
+
+.single-gallery iframe{
+	width:100%;
+}
+/*gallery end*/
+/*footer start*/
+.footer{
+	padding: 20px 0;
+	text-align: center;
+	background-color: teal;
+}
+.footer p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	text-transform: capitalize;
+}
+/*footer end*/
